@@ -4,9 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- image -->
-    <img src="./img/1_1.webp" alt="cake img" />
+    <img src="../img/1_1.webp" alt="cake img" height="250" />
+    <br />
+    <!--table-->
+    <caption>
+      Details
+    </caption>
+    <table>
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>designation</th>
+          <th>FavLang</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rojy</td>
+          <td>Cybersecurity</td>
+          <td>Odia</td>
+        </tr>
+        <tr>
+          <td colspan="2">Rojy</td>
+          <!--merge 2 columns-->
+          <td>Odia</td>
+        </tr>
+        <tr>
+          <td>Rojy</td>
+          <td>Cybersecurity</td>
+          <td rowspan="2">Odia</td>
+          <!--merge 2 rows-->
+        </tr>
+        <tr>
+          <td>Rojy</td>
+          <td>Cybersecurity</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">END!!!!</td>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>

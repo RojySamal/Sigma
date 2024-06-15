@@ -1,0 +1,8 @@
+table {
+  border: 2px solid red;
+  text-align: center;
+}
+td,
+th {
+  border: 2px solid black;
+}
